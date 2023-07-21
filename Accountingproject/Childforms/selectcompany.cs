@@ -26,25 +26,25 @@ namespace Accountingproject.Childforms
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int selectedValue = (int)comboBox1.SelectedIndex;
+            //int selectedValue = (int)comboBox1.SelectedIndex;
 
-            if (selectedValue == 0)
-            {
-                Panel P = this.Parent as Panel;
-                if (P != null)
-                {
-                    // Open a new page for Company 1
-                    login company1Form = new login();
-                   opencloseformsinpanel.showwindow(company1Form, P);
-                }
+            //if (selectedValue == 0)
+            //{
+            //    Panel P = this.Parent as Panel;
+            //    if (P != null)
+            //    {
+            //        // Open a new page for Company 1
+            //        login company1Form = new login();
+            //       opencloseformsinpanel.showwindow(company1Form, P);
+            //    }
                
-            }
-            else if (selectedValue == 1)
-            {
-                // Open a new page for Company 2 which has no loginpage 
-             //  Company2Form company2Form = new Company2Form();
-              //  company2Form.Show();
-            }
+            //}
+            //else if (selectedValue == 1)
+            //{
+            //    // Open a new page for Company 2 which has no loginpage 
+            // //  Company2Form company2Form = new Company2Form();
+            //  //  company2Form.Show();
+            //}
         }
     }
 }

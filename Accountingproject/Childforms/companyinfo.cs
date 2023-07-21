@@ -24,8 +24,9 @@ namespace Accountingproject.Childforms
             Panel P = this.Parent as Panel;
             if (P != null)
             {
-                selectcompany n = new selectcompany();
-                opencloseformsinpanel.showwindow(n, this, P);
+                
+                login n = new login();
+                opencloseformsinpanel.showfadedwindow(n, P);
             }
     }
     }

@@ -16,6 +16,7 @@ namespace Accountingproject
     {
         public mainmaster()
         {
+            this.WindowState = FormWindowState.Maximized;
             InitializeComponent();
         }
 
@@ -23,6 +24,11 @@ namespace Accountingproject
         {
             companyinfo hm = new companyinfo();
             opencloseformsinpanel.showwindow(hm, panel1); // centre the companyinfo form
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
